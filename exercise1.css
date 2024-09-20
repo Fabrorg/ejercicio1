@@ -74,7 +74,7 @@ h2 {
 main {
   display: flex;
   justify-content: space-between;
-  background-image: url('/img/sea.jpg');
+  background-image: url('./img/sea.jpg');
   margin-bottom: 10px;
   margin-top: -15px;
   padding: 50px;
