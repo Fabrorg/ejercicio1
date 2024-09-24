@@ -66,6 +66,7 @@ p {
 body {
   background-color: var(--background-othe-color);
   color: var(--text-body-color);
+  
 }
 
 header {
@@ -83,6 +84,13 @@ h1 {
 
 h2 {
   font-family: "Merriweather";
+}
+
+@media (min-width: 800px) {
+  main {
+    max-width: auto;
+    display: flex;
+  }
 }
 
 @media (min-width: 800px) {
